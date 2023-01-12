@@ -46,6 +46,7 @@ function incluiPontos(){
   function marcaPonto(){
     if (yAtor < 15){
       meusPontos += 1;
+      somDoPonto.play();
       voltaAtorParaPosicaoInicial();
     }
 }
